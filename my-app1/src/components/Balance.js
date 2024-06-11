@@ -1,9 +1,10 @@
-export function Balance() {
-    const titulobalance = "Nueva información desde un componente externo";
-    const cifra = "USD $5900,00"
+export function Balance(props) {
+    console.log(props);
+    //const titulobalance = "Balance";
+    //const cifra = "USD $5900,00"
     return (
         <section>
-            <h2>{titulobalance}</h2>
+            <h2>{props.title}</h2>
             <h4>{cifra}</h4>
         </section>
     );

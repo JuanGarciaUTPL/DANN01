@@ -18,7 +18,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <>
-    <Saludar /> <Balance />
+    <Saludar />
+    <Balance title="Balance" cifra="5900,00"/>
+    <Balance title="Ingresos" cifra="1300,00"/>
+    <Balance title="Egresos" cifra="4600,00"/>
   </>
 );
 
